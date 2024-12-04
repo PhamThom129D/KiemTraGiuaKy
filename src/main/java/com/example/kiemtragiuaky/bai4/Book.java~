@@ -1,0 +1,9 @@
+package com.example.kiemtragiuaky.bai4;
+
+public class Book {
+    private String name;
+    private String author;
+    private String category;
+    private String publisher;
+
+}
