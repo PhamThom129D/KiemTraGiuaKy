@@ -31,6 +31,7 @@
     <h2>${book.author}</h2>
     <h2>${book.category}</h2>
     <h2>${book.year}</h2>
+    <p>______</p>
 </c:forEach>
 </body>
 </html>

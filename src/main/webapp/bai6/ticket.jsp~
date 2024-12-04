@@ -1,0 +1,31 @@
+<%@ page import="java.util.List" %>
+<%@ page import="com.example.kiemtragiuaky.bai6.Ticket" %>
+<%@ page import="java.util.ArrayList" %><%--
+  Created by IntelliJ IDEA.
+  User: T14
+  Date: 04/12/2024
+  Time: 2:35 CH
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Danh sach ve </title>
+</head>
+<body>
+<%
+    List<Ticket> ticketList = new ArrayList<>();
+    {
+        ticketList.add(new Ticket(1,"Dao Khi",15));
+        ticketList.add(new Ticket(2,"Dao Khi1",12));
+        ticketList.add(new Ticket(3,"Dao Khi2",12));
+        ticketList.add(new Ticket(4,"Dao Khi3",15));
+    }
+    request.setAttribute("ticketList",ticketList);
+%>
+<h1>
+</h1>
+
+</body>
+</html>
