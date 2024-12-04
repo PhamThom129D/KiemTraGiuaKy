@@ -1,0 +1,17 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: T14
+  Date: 04/12/2024
+  Time: 1:48 CH
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Danh sach don hang</title>
+</head>
+<body>
+
+</body>
+</html>
