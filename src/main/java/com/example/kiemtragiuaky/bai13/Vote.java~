@@ -1,0 +1,6 @@
+package com.example.kiemtragiuaky.bai13;
+
+public class Vote {
+    private String question;
+    private String options;
+}
